@@ -1,1 +1,13 @@
+트리거 조건:
+  - push 이벤트
+  - 경로 필터: workspace/**/*.json
 
+실행 단계:
+  1. 체크아웃
+  2. Node.js 18 설치
+  3. npm install (puppeteer 포함)
+  4. 변경된 .json 파일 목록 추출 (git diff)
+  5. 각 파일에 대해:
+     a. node scripts/render.js --slides {파일} --style clean --accent "#8BC34A" --account "paycollabo" --output output/{콘텐츠명}/
+     b. 생성된 PNG들을 Telegram Bot API로 전송 (sendMediaGroup)
+  6. output/ 폴더를 GitHub Artifact로 업로드 (7일 보관)
