@@ -49,7 +49,7 @@ jobs:
             echo "▶ Rendering $FILE..."
             node scripts/render.js \
               --slides "$FILE" \
-              --style premium \
+              --style clean \
               --output "output/$BASENAME/"
             echo "✅ $BASENAME 렌더링 완료"
           done
