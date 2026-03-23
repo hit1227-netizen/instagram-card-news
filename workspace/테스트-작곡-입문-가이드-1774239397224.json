@@ -1,0 +1,58 @@
+[
+  {
+    "type": "cover",
+    "headline": "작곡 시작하기 전에",
+    "subtext": "완벽한 준비는 필요 없어요",
+    "headline_label": "PayCollabo"
+  },
+  {
+    "type": "content-badge",
+    "badge_text": "고민해결",
+    "headline": "악기 못 쳐도 괜찮아요",
+    "body": "음악 이론 몰라도, 악기 못 다뤄도 작곡은 시작할 수 있어요"
+  },
+  {
+    "type": "content-highlight",
+    "headline": "필요한 건 딱 하나",
+    "emphasis": "DAW",
+    "body": "디지털 오디오 워크스테이션으로 컴퓨터에서 음악을 만드는 프로그램"
+  },
+  {
+    "type": "content-grid",
+    "headline": "대표적인 DAW 3가지",
+    "grid1_icon": "🎵",
+    "grid1_title": "Ableton",
+    "grid1_desc": "직관적인 인터페이스",
+    "grid2_icon": "🎶",
+    "grid2_title": "Logic Pro",
+    "grid2_desc": "맥 전용 강력한 기능",
+    "grid3_icon": "🎹",
+    "grid3_title": "FL Studio",
+    "grid3_desc": "입문자 친화적",
+    "grid4_icon": "💡",
+    "grid4_title": "무료 버전",
+    "grid4_desc": "부담 없이 시작"
+  },
+  {
+    "type": "content-split",
+    "headline": "입문자가 하는 실수 vs 올바른 시작",
+    "left_title": "❌ 잘못된 생각",
+    "left_body": "비싼 장비, 넓은 작업실, 깊은 이론 공부부터",
+    "right_title": "✅ 올바른 시작",
+    "right_body": "지금 당장 DAW 다운받고 소리 하나 만들어보기"
+  },
+  {
+    "type": "content-stat",
+    "headline": "페이콜라보와 함께라면",
+    "emphasis": "20주",
+    "body": "체계적인 커리큘럼과 24시간 AI 챗봇으로 안전하게"
+  },
+  {
+    "type": "cta",
+    "headline": "나도 작곡가가 될 수 있어",
+    "cta_text": "🎵 무료 체험 학습지 받기 → 프로필 링크",
+    "tag1": "#작곡입문",
+    "tag2": "#DAW",
+    "tag3": "#페이콜라보"
+  }
+]
