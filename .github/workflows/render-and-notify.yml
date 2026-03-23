@@ -1,13 +1,62 @@
-트리거 조건:
-  - push 이벤트
-  - 경로 필터: workspace/**/*.json
+name: Render Card News & Notify Telegram
 
-실행 단계:
-  1. 체크아웃
-  2. Node.js 18 설치
-  3. npm install (puppeteer 포함)
-  4. 변경된 .json 파일 목록 추출 (git diff)
-  5. 각 파일에 대해:
-     a. node scripts/render.js --slides {파일} --style clean --accent "#8BC34A" --account "paycollabo" --output output/{콘텐츠명}/
-     b. 생성된 PNG들을 Telegram Bot API로 전송 (sendMediaGroup)
-  6. output/ 폴더를 GitHub Artifact로 업로드 (7일 보관)
+on:
+  push:
+    paths:
+      - 'workspace/*.json'
+
+jobs:
+  render-and-notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Chrome for Puppeteer
+        run: npx puppeteer browsers install chrome
+
+      - name: Get changed slides.json files
+        id: changed-files
+        run: |
+          CHANGED=$(git diff --name-only HEAD~1 HEAD -- 'workspace/*.json' | tr '\n' ' ')
+          echo "files=$CHANGED" >> $GITHUB_OUTPUT
+          echo "Changed files: $CHANGED"
+
+      - name: Render slides to PNG
+        run: |
+          mkdir -p output
+          for FILE in ${{ steps.changed-files.outputs.files }}; do
+            BASENAME=$(basename "$FILE" .json)
+            mkdir -p "output/$BASENAME"
+            echo "▶ Rendering $FILE..."
+            node scripts/render.js \
+              --slides "$FILE" \
+              --style clean \
+              --output "output/$BASENAME/"
+            echo "✅ $BASENAME 렌더링 완료"
+          done
+
+      - name: Send to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node scripts/notify-telegram.js
+
+      - name: Upload PNG artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: card-news-${{ github.run_number }}
+          path: output/
+          retention-days: 7
