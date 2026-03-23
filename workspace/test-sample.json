@@ -1,0 +1,49 @@
+[
+  {
+    "type": "cover",
+    "headline": "작곡, 어디서부터\n시작해야 할까?",
+    "subtext": "0년차 작곡가를 위한 첫 번째 가이드",
+    "headline_label": "PayCollabo"
+  },
+  {
+    "type": "content-badge",
+    "badge_text": "많은 분들이 묻습니다",
+    "headline": "\"코드도 모르는데\n작곡할 수 있나요?\"",
+    "body": "결론부터 말하면, <span class='highlight'>네, 할 수 있습니다.</span>\n코드를 몰라도 DAW만 있으면 오늘 바로 시작할 수 있어요."
+  },
+  {
+    "type": "content-steps",
+    "headline": "작곡 입문 3단계",
+    "step1": "DAW 설치 & 기본 조작 익히기",
+    "step2": "마음에 드는 곡 따라 만들기",
+    "step3": "내 멜로디로 편곡해보기"
+  },
+  {
+    "type": "content-stat",
+    "headline": "PayCollabo 수강생 통계",
+    "emphasis": "87%",
+    "body": "수강생 중 87%가 음악 이론 전무한 상태로 시작했고,\n20주 과정을 마친 후 자신만의 곡을 완성했습니다."
+  },
+  {
+    "type": "content-split",
+    "headline": "혼자 공부 vs PayCollabo",
+    "left_title": "혼자 공부",
+    "left_body": "뭘 배워야 할지 모름\n유튜브 영상만 수백 개\n질문할 곳이 없음",
+    "right_title": "PayCollabo",
+    "right_body": "20주 커리큘럼 제공\n학습지 + 챗봇 24시간\n작곡가 커뮤니티"
+  },
+  {
+    "type": "content-highlight",
+    "headline": "이것만 기억하세요",
+    "emphasis": "완성이 완벽보다 중요합니다",
+    "body": "처음부터 잘 만들려고 하지 마세요.\n<span class='highlight'>일단 끝내는 것</span>이 실력을 키우는 가장 빠른 방법입니다."
+  },
+  {
+    "type": "cta",
+    "headline": "지금 바로 시작해보세요",
+    "cta_text": "무료 1주차 학습지 받기",
+    "tag1": "20주 커리큘럼",
+    "tag2": "24시간 AI 챗봇",
+    "tag3": "평생 수강"
+  }
+]
