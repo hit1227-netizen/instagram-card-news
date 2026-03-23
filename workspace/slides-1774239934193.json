@@ -1,0 +1,57 @@
+[
+  {
+    "type": "cover",
+    "headline": "작곡, 지금 바로 시작하세요",
+    "subtext": "악기 못 다뤄도, 이론 몰라도 괜찮아요",
+    "headline_label": "PayCollabo"
+  },
+  {
+    "type": "content-badge",
+    "badge_text": "초보자 필독",
+    "headline": "작곡에 필요한 건 딱 하나",
+    "body": "DAW(디지털 오디오 워크스테이션)만 있으면 <span class='highlight'>컴퓨터로 음악 제작</span>이 가능해요"
+  },
+  {
+    "type": "content-grid",
+    "headline": "인기 DAW 프로그램",
+    "grid1_icon": "🎹",
+    "grid1_title": "Ableton Live",
+    "grid1_desc": "직관적인 인터페이스",
+    "grid2_icon": "🎵",
+    "grid2_title": "Logic Pro",
+    "grid2_desc": "Mac 전용, 풍부한 사운드",
+    "grid3_icon": "🎶",
+    "grid3_title": "FL Studio",
+    "grid3_desc": "평생 무료 업데이트",
+    "grid4_icon": "💻",
+    "grid4_title": "무료 DAW",
+    "grid4_desc": "GarageBand 등으로 시작"
+  },
+  {
+    "type": "content-highlight",
+    "headline": "입문자가 하는 가장 큰 실수",
+    "emphasis": "완벽한 준비를 기다리기",
+    "body": "비싼 장비, 넓은 작업실, 깊은 이론 공부... <span class='highlight'>나중에 해도 충분</span>해요"
+  },
+  {
+    "type": "content-steps",
+    "headline": "작곡 첫 걸음 가이드",
+    "step1": "무료 DAW 다운로드",
+    "step2": "간단한 소리 하나 만들어보기",
+    "step3": "조금씩 기능 익히며 발전하기"
+  },
+  {
+    "type": "content-stat",
+    "headline": "체계적인 학습이 필요하다면",
+    "emphasis": "20주 커리큘럼",
+    "body": "매주 학습지 발송 + 24시간 AI 챗봇으로 <span class='highlight'>혼자서도 꾸준히</span> 배울 수 있어요"
+  },
+  {
+    "type": "cta",
+    "headline": "작곡, 더 이상 미루지 마세요",
+    "cta_text": "🎵 무료 체험 학습지 받기 → 프로필 링크",
+    "tag1": "작곡입문",
+    "tag2": "DAW",
+    "tag3": "음악제작"
+  }
+]
