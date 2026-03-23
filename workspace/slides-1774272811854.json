@@ -1,0 +1,49 @@
+[
+  {
+    "type": "cover",
+    "headline": "장비 없어도 작곡 가능해요",
+    "subtext": "스마트폰 하나로 시작하는 작곡",
+    "headline_label": "PayCollabo"
+  },
+  {
+    "type": "content-badge",
+    "badge_text": "흔한 고민",
+    "headline": "작곡 시작을 미루는 이유들",
+    "body": "비싼 장비가 필요할 것 같아서, 악보를 못 읽어서, 전문 프로그램이 어려워 보여서..."
+  },
+  {
+    "type": "content-highlight",
+    "headline": "진짜 필요한 건 하나뿐",
+    "emphasis": "시작하는 마음",
+    "body": "장비나 이론보다 중요한 건 <span class='highlight'>첫 곡을 완성해보는 경험</span>이에요"
+  },
+  {
+    "type": "content-stat",
+    "headline": "무료로 시작하세요",
+    "emphasis": "0원",
+    "body": "GarageBand는 완전 무료! 스마트폰에서 바로 작곡을 시작할 수 있어요"
+  },
+  {
+    "type": "content-steps",
+    "headline": "3단계로 첫 곡 만들기",
+    "step1": "GarageBand 앱 다운로드",
+    "step2": "간단한 루프 조합하기",
+    "step3": "첫 번째 곡 완성!"
+  },
+  {
+    "type": "content-split",
+    "headline": "시작이 반이에요",
+    "left_title": "Before",
+    "left_body": "비싼 장비 걱정\n이론 공부 부담",
+    "right_title": "After",
+    "right_body": "무료 앱으로 시작\n재미있게 체험"
+  },
+  {
+    "type": "cta",
+    "headline": "본격 작곡 배우고 싶다면?",
+    "cta_text": "🎵 무료 체험 학습지 받기 → 프로필 링크",
+    "tag1": "작곡입문",
+    "tag2": "무료시작",
+    "tag3": "페이콜라보"
+  }
+]
