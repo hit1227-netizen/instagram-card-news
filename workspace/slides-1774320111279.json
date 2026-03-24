@@ -1,0 +1,59 @@
+[
+  {
+    "type": "cover",
+    "headline": "DAW 때문에 고민중?",
+    "subtext": "초보자도 쉽게 선택하는 방법",
+    "headline_label": "PayCollabo"
+  },
+  {
+    "type": "content-badge",
+    "badge_text": "기초지식",
+    "headline": "DAW가 뭔데?",
+    "body": "음악을 만드는 프로그램이에요. 악기 연주, 녹음, 편집을 한 번에!"
+  },
+  {
+    "type": "content-grid",
+    "headline": "초보자를 위한 DAW 3종",
+    "grid1_icon": "🎛️",
+    "grid1_title": "Ableton Live",
+    "grid1_desc": "직관적인 루프 제작",
+    "grid2_icon": "🎹",
+    "grid2_title": "Logic Pro",
+    "grid2_desc": "풍부한 기본 악기",
+    "grid3_icon": "🔥",
+    "grid3_title": "FL Studio",
+    "grid3_desc": "쉬운 비트 메이킹",
+    "grid4_icon": "✨",
+    "grid4_title": "어떤 걸 선택해도",
+    "grid4_desc": "좋은 음악 만들 수 있어요"
+  },
+  {
+    "type": "content-list",
+    "headline": "장르별 추천 DAW",
+    "item1": "🎵 전자음악 → Ableton Live",
+    "item2": "🎤 팝/발라드 → Logic Pro",
+    "item3": "🎧 힙합/R&B → FL Studio"
+  },
+  {
+    "type": "content-split",
+    "headline": "자주 묻는 질문 Q&A",
+    "left_title": "Q. 맥북 없으면 Logic 못써?",
+    "left_body": "맞아요! Logic은 맥 전용이에요",
+    "right_title": "Q. FL Studio가 가장 쉬워?",
+    "right_body": "개인차가 있어요. 익숙해지면 다 비슷해요"
+  },
+  {
+    "type": "content-highlight",
+    "headline": "핵심은 이거예요",
+    "emphasis": "어떤 DAW든 체계적 학습이 중요",
+    "body": "<span class='highlight'>혼자 끙끙대지 말고</span> 제대로 배워보세요!"
+  },
+  {
+    "type": "cta",
+    "headline": "체계적으로 배우고 싶다면?",
+    "cta_text": "링크바이오에서 무료 학습지 받기",
+    "tag1": "#작곡초보",
+    "tag2": "#DAW선택",
+    "tag3": "#작곡입문"
+  }
+]
