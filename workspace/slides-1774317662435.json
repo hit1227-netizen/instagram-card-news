@@ -1,0 +1,58 @@
+[
+  {
+    "type": "cover",
+    "headline": "작곡 초보자 절반이 하는 실수",
+    "subtext": "재능 탓이 아닌 공부 순서의 문제",
+    "headline_label": "PayCollabo"
+  },
+  {
+    "type": "content-badge",
+    "badge_text": "실패 패턴",
+    "headline": "초보자가 빠지는 3가지 함정",
+    "body": "재능 의심 → 잘못된 커리큘럼 → 교육비 수백만원 낭비"
+  },
+  {
+    "type": "content-steps",
+    "headline": "올바른 작곡 학습 순서",
+    "step1": "멜로디 메이킹부터",
+    "step2": "화성/리듬 패턴 익히기",
+    "step3": "사운드/믹싱 마스터"
+  },
+  {
+    "type": "content-list",
+    "headline": "독학의 3가지 한계점",
+    "item1": "어떤 순서로 배워야 하는지 모름",
+    "item2": "내 진도가 어디까지인지 파악 불가",
+    "item3": "막힐 때 질문할 곳이 없음"
+  },
+  {
+    "type": "content-stat",
+    "headline": "학원 vs 페이콜라보 비교",
+    "emphasis": "420만원 vs 59만원",
+    "body": "학원 1년 비용으로 <span class='highlight'>체계적인 온라인 교육</span> 받기"
+  },
+  {
+    "type": "content-grid",
+    "headline": "페이콜라보 학습 시스템",
+    "grid1_icon": "📚",
+    "grid1_title": "20주 학습지",
+    "grid1_desc": "단계별 맞춤 진도",
+    "grid2_icon": "🎥",
+    "grid2_title": "120편 강의",
+    "grid2_desc": "실무진 제작",
+    "grid3_icon": "🤖",
+    "grid3_title": "24시간 챗봇",
+    "grid3_desc": "언제든 질문",
+    "grid4_icon": "💰",
+    "grid4_title": "합리적 가격",
+    "grid4_desc": "학원 대비 1/7"
+  },
+  {
+    "type": "cta",
+    "headline": "체계적인 작곡 학습 시작하기",
+    "cta_text": "🎤 1:1 무료 컨설팅 신청 → 프로필 링크",
+    "tag1": "작곡독학",
+    "tag2": "미디작곡",
+    "tag3": "음악교육"
+  }
+]
